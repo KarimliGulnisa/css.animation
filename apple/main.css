@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    background-image: url(images/dele%20-%20Copy.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 800px;
+}
+.basket{
+    width: 250px;
+    height: 150px;
+    position: relative;
+    top: 590px;
+    left: 600px;
+    background-image: url(images/5a1c01f8957588.8832881215117849526122.png);
+    background-size: 250px 150px;
+    background-repeat: no-repeat;
+}
+.apples{
+    width: 85px;
+    height: 70px;
+    position: relative;
+    left: 690px;
+    top: 350px;
+    background-image: url(images/5a1d3a36581573.6733782115118648863608.png);
+    background-size: 85px 70px;
+    background-repeat: no-repeat;
+
+    animation-name: apple;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes apple{
+    from{ top: 350px}
+    to{top: 660px}
+}
+
+
+
+
+
+
